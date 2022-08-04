@@ -1,0 +1,31 @@
+{
+  "name": "roulette-api",
+  "version": "1.0.0",
+  "description": "Roulette API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*.spec.js",
+    "start": "node src/listen.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0",
+    "supertest": "^6.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajinderBhinder/roulette-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajinderBhinder/roulette-api/issues"
+  },
+  "homepage": "https://github.com/RajinderBhinder/roulette-api#readme"
+}
