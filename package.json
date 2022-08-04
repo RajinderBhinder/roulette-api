@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha src/**/*.spec.js",
-    "start": "node src/listen.js",
-    "seed:dev": "node ./seed/seed.dev.js"
+    "start": "node src/listen.js"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
